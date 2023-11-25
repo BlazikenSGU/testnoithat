@@ -1,0 +1,555 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="shorcut icon" href="assets/image/favicon.ico" type="image/x-icon">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+
+
+    <link rel="stylesheet" href="assets/css/styles.css">
+
+    <title>Document</title>
+</head>
+
+<body>
+
+    <header class="header" id="header">
+        <nav class="nav container">
+            <a href="" class="nav__logo">
+                CLC <i class='bx bxs-home'></i>
+            </a>
+
+            <div class="nav__menu">
+                <ul class="nav__list">
+                    <li class="nav__item">
+                        <a href="#home" class="nav__link active-link">
+                            <i class='bx bx-home'></i>
+                            <span>Home</span>
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#popular" class="nav__link">
+                            <i class='bx bx-buildings'></i>
+                            <span>Dự Án</span>
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#value" class="nav__link">
+                            <i class='bx bx-award'></i>
+                            <span>Giá trị</span>
+                        </a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="#contact" class="nav__link">
+                            <i class='bx bx-phone'></i>
+                            <span>Liên hệ</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+
+            <!-- Theme change button -->
+            <i class='bx bx-moon change-theme' id="theme-button"></i>
+
+            <a href="" class="button nav__button">
+                Theo dõi
+            </a>
+        </nav>
+    </header>
+
+    <main class="main">
+
+        <section class="home section" id="home">
+            <div class="home__container container grid">
+                <div class="home__data">
+                    <h1 class="home__title">
+                        CLC - Chuyên gia công nội thất dạng tấm
+                    </h1>
+                    <p class="home__description">
+                        Cung cấp các vật liệu cho thi công nội thất, gia công các bề mặt gỗ theo yêu cầu khách hàng, hỗ
+                        trợ và tư vấn...
+                    </p>
+
+                    <form action="" class="home__search">
+                        <i class="bx bxs-map"></i>
+                        <input type="search" placeholder="Tìm kiếm ...." class="home__search-input">
+                        <button class="button">Search</button>
+                    </form>
+
+                    <!-- <div class="home__value">
+                        <div>
+                            <h1 class="home__value-number">
+                                9k <span>+</span>
+                            </h1>
+                            <span class="home__value-description">
+                                Premium Product
+                            </span>
+                        </div>
+
+                        <div>
+                            <h1 class="home__value-number">
+                                2k <span>+</span>
+                            </h1>
+                            <span class="home__value-description">
+                                Happy Customer
+                            </span>
+                        </div>
+
+                        <div>
+                            <h1 class="home__value-number">
+                                2k <span>+</span>
+                            </h1>
+                            <span class="home__value-description">
+                                Award Winning
+                            </span>
+                        </div>
+                    </div> -->
+
+                </div>
+
+                <div class="home__images">
+                    <div class="home__orbe"></div>
+
+                    <div class="home__img">
+                        <img src="assets/image/home.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="logos section">
+            <div class="logos__container container grid">
+                <div class="logos__img">
+                    <img src="assets/image/logo1.jpg" alt="">
+                </div>
+
+                <div class="logos__img">
+                    <img src="assets/image/logo2.jpg" alt="">
+                </div>
+
+                <div class="logos__img">
+                    <img src="assets/image/logo3.png" alt="">
+                </div>
+
+                <div class="logos__img">
+                    <img src="assets/image/logo4.png" alt="">
+                </div>
+            </div>
+        </section>
+
+        <section class="popular section" id="popular">
+            <div class="container">
+                <span class="section__subtitle">Phổ biến tốt nhất</span>
+                <h2 class="section__title">Các dự án thiết kế</h2>
+
+                <div class="popular__container swiper">
+                    <div class="swiper-wrapper">
+                        <article class="popular__card swiper-slide">
+                            <img src="assets/image/popular5.jpg" alt="" class="popular__img">
+
+                            <div class="popular__data">
+                                <h2 class="popular__price">
+                                    53.000.000đ
+                                </h2>
+
+                                <h3 class="popular__title">
+                                    Nội Thất Căn hộ Antonia
+                                </h3>
+                                <p class="popular__description">
+                                    Căn hộ Antonia, TPHCM
+                                </p>
+                            </div>
+                        </article>
+
+                        <article class="popular__card swiper-slide">
+                            <img src="assets/image/popular6.jpg" alt="" class="popular__img">
+
+                            <div class="popular__data">
+                                <h2 class="popular__price">
+                                    53.000.000đ
+                                </h2>
+
+                                <h3 class="popular__title">
+                                    Nội thất Nhà Bếp
+                                </h3>
+                                <p class="popular__description">
+                                    1137A Nguyễn Xiễn, Phường Long Bình, Thành Phố Thủ Đức, TPHCM
+                                </p>
+                            </div>
+                        </article>
+
+                        <article class="popular__card swiper-slide">
+                            <img src="assets/image/popular7.jpg" alt="" class="popular__img">
+
+                            <div class="popular__data">
+                                <h2 class="popular__price">
+                                    53.000.000đ
+                                </h2>
+
+                                <h3 class="popular__title">
+                                    Căn hộ 2 phòng ngủ
+                                </h3>
+                                <p class="popular__description">
+                                    431 Tô Hiến Thành, P14, Q10, TPHCM
+                                </p>
+                            </div>
+                        </article>
+
+                        <article class="popular__card swiper-slide">
+                            <img src="assets/image/popular8.jpg" alt="" class="popular__img">
+
+                            <div class="popular__data">
+                                <h2 class="popular__price">
+                                    45.000.000đ
+                                </h2>
+
+                                <h3 class="popular__title">
+                                    Căn hộ Duplex thông tầng 200m2
+                                </h3>
+                                <p class="popular__description">
+                                    166B Trần Hưng Đạo, Phường Nguyễn Cư Trinh, Quận 1, TPHCM
+                                </p>
+                            </div>
+                        </article>
+
+                        <article class="popular__card swiper-slide">
+                            <img src="assets/image/popular9.jpg" alt="" class="popular__img">
+
+                            <div class="popular__data">
+                                <h2 class="popular__price">
+                                    45.000.000đ
+                                </h2>
+
+                                <h3 class="popular__title">
+                                    Căn hộ Origami tại Vinhomes Grand Park
+                                </h3>
+                                <p class="popular__description">
+                                    The Sun Avenue SAV8-08, 28 Mai Chí Thọ, Phường An Phú, Tp Thủ Đức, TPHCM
+                                </p>
+                            </div>
+                        </article>
+                    </div>
+                    <div class="swiper-button-next">
+                        <i class='bx bx-chevron-right'></i>
+                    </div>
+                    <div class="swiper-button-prev">
+                        <i class='bx bx-chevron-left'></i>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <section class="value section" id="value">
+            <div class="value__container container grid">
+                <div class="value__images">
+                    <div class="value__orbe">
+
+                    </div>
+
+                    <div class="value__img">
+                        <img src="assets/image/value.jpg" alt="">
+                    </div>
+                </div>
+
+                <div class="value__content">
+                    <div class="value__data">
+
+                        <span class="section__subtitle">Giá trị của chúng tôi</span>
+                        <h2 class="section__title">
+                            Chúng tôi đem đến cho bạn những giá trị tốt nhất
+                        </h2>
+
+                        <p class="value__description">
+                            Chúng tôi luôn sẵn sàng giúp đỡ bạn bằng cách cung cấp dịch vụ tốt nhất cho bạn. Hỗ trợ và
+                            tư vấn với cái tâm của một nhà lành nghề
+                        </p>
+                    </div>
+
+                    <div class="value__accordion">
+                        <div class="value__accordion-item">
+                            <header class="value__accordion-header">
+                                <i class='bx bxs-bank value__accordion-icon'></i>
+                                <h3 class="value__accordion-title">
+                                    Giá cả tốt nhất trên thị trường
+                                </h3>
+                                <div class="value__accordion-arrow">
+                                    <i class='bx bxs-down-arrow'></i>
+                                </div>
+                            </header>
+
+                            <div class="value__accordion-content">
+                                <p class="value__accordion-description">
+                                    Giá chúng tôi cung cấp là tốt nhất cho bạn, chúng tôi Đảm bảo không thay đổi giá
+                                    trên tài sản của bạn Tài liệu đến nhiều chi phí bất ngờ khác nhau có thể xảy ra.
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="value__accordion-item">
+                            <header class="value__accordion-header">
+                                <i class='bx bxs-hard-hat value__accordion-icon'></i>
+                                <h3 class="value__accordion-title">
+                                    Xưởng gia công với quy mô lớn
+                                </h3>
+                                <div class="value__accordion-arrow">
+                                    <i class='bx bxs-down-arrow'></i>
+                                </div>
+                            </header>
+
+                            <div class="value__accordion-content">
+                                <p class="value__accordion-description">
+                                    Gia công ván MDF trên máy CNC. Với các chức năng Cắt-Khoan, Dán, Khoan-Gia công cắt
+                                    theo yêu cầu
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="value__accordion-item">
+                            <header class="value__accordion-header">
+                                <i class='bx bxs-universal-access value__accordion-icon'></i>
+                                <h3 class="value__accordion-title">
+                                    Đội ngũ kỹ thuật trình độ cao
+                                </h3>
+                                <div class="value__accordion-arrow">
+                                    <i class='bx bxs-down-arrow'></i>
+                                </div>
+                            </header>
+
+                            <div class="value__accordion-content">
+                                <p class="value__accordion-description">
+                                    Với độ ngũ sử dụng thành thạo plugin ABF chúng tôi tự tin đem đến cho khách hàng một
+                                    dịch vụ tốt nhất
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+
+            </div>
+        </section>
+
+        <section class="contact section" id="contact">
+            <div class="contact__container container grid">
+
+                <div class="contact__images">
+                    <div class="contact__orbe">
+
+                    </div>
+                    <div class="contact__img">
+                        <img src="assets/image/contact.jpg" alt="">
+                    </div>
+                </div>
+
+                <div class="contact__content">
+                    <div class="contact__data">
+                        <span class="section__subtitle">
+                            Liên hệ chúng tôi
+                        </span>
+                        <h2 class="section__title">
+                            Dễ dàng liên hệ với nhiều hình thức<span>.</span>
+                        </h2>
+
+                        <p class="contact__description">
+                            Nếu bạn cần được tư vấn về thiết kế nội thất cần chọn loại ván nào? Cần tư vấn về các thông
+                            tin loại gỗ làm ván? Hãy liên hệ với chúng tôi để được tư vấn.
+                        </p>
+                    </div>
+
+                    <div class="contact__card">
+
+                        <div class="contact__card-box">
+                            <div class="contact__card-info">
+                                <i class='bx bxs-phone-call'></i>
+                                <div>
+                                    <h3 class="contact__card-title">
+                                        SĐT
+                                    </h3>
+                                    <p class="contact__card-description">
+                                        0916781367
+                                    </p>
+                                </div>
+                            </div>
+
+                            <button class="button contact__card-button">
+                                Gọi ngay
+                            </button>
+                        </div>
+
+                        <div class="contact__card-box">
+                            <div class="contact__card-info">
+                                <i class='bx bxs-message-rounded-dots'></i>
+                                <div>
+                                    <h3 class="contact__card-title">
+                                        Nhắn tin
+                                    </h3>
+                                    <p class="contact__card-description">
+                                        0916781367
+                                    </p>
+                                </div>
+                            </div>
+
+                            <button class="button contact__card-button">
+                                Gửi tin
+                            </button>
+                        </div>
+
+                        <div class="contact__card-box">
+                            <div class="contact__card-info">
+                                <i class='bx bxs-video'></i>
+                                <div>
+                                    <h3 class="contact__card-title">
+                                        Zalo video
+                                    </h3>
+                                    <p class="contact__card-description">
+                                        0916781367
+                                    </p>
+                                </div>
+                            </div>
+
+                            <button class="button contact__card-button">
+                                Gọi Zalo
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+        <section class="subscribe section">
+            <div class="subscribe__container container">
+                <h1 class="subscribe__title">
+                    KẾT NỐI VỚI CLC
+                </h1>
+
+                <p class="subscribe__description">
+                    Theo dõi chúng tôi trên nhiều nền tảng để có thêm thông tin về sản phẩm, giá cả, khuyến mãi, tin
+                    tức...
+                </p>
+
+                <a href="#" class="button subscribe__button">
+                    Bắt đầu theo dõi
+                </a>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer section">
+        <div class="footer__container container grid">
+            <div>
+                <a href="#" class="footer__logo">
+                    CLC <i class='bx bxs-home-alt-2'></i>
+                </a>
+                <p class="footer__description">
+                    Chuyên gia công nội thất dạng tấm<br>
+                    Đem sự hài lòng đến tất cả mọi người
+                </p>
+            </div>
+
+            <div class="footer__content">
+                <div>
+                    <h3 class="footer__title">
+                        Về chúng tôi
+                    </h3>
+
+                    <ul class="footer__links">
+                        <li>
+                            <a href="#" class="footer_link">Lịch sử</a>
+                        </li>
+                        <li>
+                            <a href="#" class="footer_link">Liên hệ</a>
+                        </li>
+                        <li>
+                            <a href="#" class="footer_link">Tin tức</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h3 class="footer__title">
+                        Chính sách
+                    </h3>
+
+                    <ul class="footer__links">
+                        <li>
+                            <a href="#" class="footer_link">Bảo hành</a>
+                        </li>
+                        <li>
+                            <a href="#" class="footer_link">Vận chuyển</a>
+                        </li>
+                        <li>
+                            <a href="#" class="footer_link">Đổi trả</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h3 class="footer__title">
+                        Hỗ trợ
+                    </h3>
+
+                    <ul class="footer__links">
+                        <li>
+                            <a href="#" class="footer_link">Hỏi đáp</a>
+                        </li>
+                        <li>
+                            <a href="#" class="footer_link">HDSD</a>
+                        </li>
+                        <li>
+                            <a href="#" class="footer_link">Quy trình</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h3 class="footer__title">
+                        Follow Us
+                    </h3>
+
+                    <ul class="footer__social">
+                        <a href="https://www.facebook.com/" target="_blank" class="footer__social-link">
+                            <i class='bx bxl-facebook-square'></i>
+                        </a>
+                        <a href="https://www.instagram.com/" target="_blank" class="footer__social-link">
+                            <i class='bx bxl-instagram-alt'></i>
+                        </a>
+                        <a href="https://www.pinterest.com/" target="_blank" class="footer__social-link">
+                            <i class='bx bxl-youtube'></i>
+                        </a>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer__info container">
+            <span class="footer__copy">
+                &#169; CLC. All right reserved - Copyright 2023
+            </span>
+
+            <div class="footer__privacy">
+                <a href="#">Terms & Agreements</a>
+                <a href="#">Privacy Policy</a>
+            </div>
+        </div>
+
+    </footer>
+
+    <a href="#" class="scrollup" id="scroll-up">
+        <i class='bx bx-chevrons-up'></i>
+    </a>
+
+
+    <script src="assets/js/scrollreveal.min.js"></script>
+    <script src="assets/js/swiper-bundle.min.js"></script>
+    <script src="assets/js/main.js"></script>
+</body>
+
+</html>
